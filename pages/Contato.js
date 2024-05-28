@@ -1,13 +1,9 @@
-import '../src/css/base.css';
 import styles from '../src/css/contato.module.css';
 
-
-
 const Contato = () => {
-
-function handleClick(){
- alert("teste")
-}
+  function handleClick() {
+    alert('teste');
+  }
 
   return (
     <>
@@ -50,11 +46,9 @@ function handleClick(){
               placeholder="Deixe sua mensagem"
             ></textarea>
           </p>
-          <button className={styles.btn} >Enviar</button>
-          
+          <button className={styles.btn}>Enviar</button>
         </form>
-        <input type="submit" onClick={handleClick}/>
-        
+        <input type="submit" onClick={handleClick} />
       </section>
     </>
   );
