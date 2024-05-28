@@ -1,0 +1,104 @@
+.section {
+  padding-top: 150px;
+  width: 100%;
+  height: 100vh;
+}
+.form {
+  font-family: verdana;
+  font-size: 15px;
+  background-color: transparent;
+  border: 1px solid #000;
+  width: 350px;
+  float: left;
+  margin-left: 40%;
+  margin-bottom: 20px;
+}
+.form label {
+  margin-left: 20px;
+  color: aqua;
+  font-weight: bold;
+}
+.h1 {
+  margin-bottom: 20px;
+  margin-left: 40%;
+  color: aqua;
+  font-size: 25px;
+  text-shadow: 5px 5px 5px #4b0082;
+}
+.input,
+.textarea {
+  width: 200px;
+  padding: 10px;
+  color: #000;
+  padding-left: 20px;
+  border: 1px solid;
+}
+
+#nome {
+  width: 200px;
+  height: 25px;
+  margin-top: 10px;
+  margin-left: 45px;
+}
+#telefone {
+  width: 200px;
+  height: 25px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+#email {
+  width: 200px;
+  height: 25px;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+.input:hover,
+.textarea:hover {
+  border-color: #000066;
+  box-shadow: 5px 0px 9px #ffff00;
+  background: #000;
+  font-weight: bold;
+}
+.textarea {
+  margin-top: 10px;
+  margin-left: 45px;
+  width: 250px;
+  height: 120px;
+  line-height: 20px;
+}
+
+.btn {
+  margin-left: 100px;
+  width: 150px;
+  height: 50px;
+  box-shadow: 40px;
+  font-weight: bold;
+  border-radius: 15px;
+  color: #000;
+}
+.btn:hover {
+  background: #000;
+  color: aqua;
+}
+
+/*perguntas e resposta*/
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}

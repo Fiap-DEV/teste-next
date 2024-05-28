@@ -1,0 +1,21 @@
+:root {
+  --color1: #000;
+  --color2: #3d1365;
+  --color3: #e7d8e9;
+  --color4: #fff;
+  --color5: yellow;
+  --color6: #effd5f;
+  --color7: linear-gradient(to left, #60116a, #e7d8e9);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background: var(--color2);
+}
